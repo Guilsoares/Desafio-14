@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital@0;1&display=swap');
+
+:root{
+    --cor01:#76430E;
+    --cor02: #F5D6B5;
+
+    --titleFonts: 'Pacifico', cursive;
+    --textFonts: 'Roboto', sans-serif;
+}
+
+/* HEADER*/
+
+header{
+    background-color: var(--cor01);
+    color: var(--cor02);
+    border-bottom: solid 3px #786959;
+}
+
+.titles{
+    font-family: var(--titleFonts);
+}
+
+.nav-item .nav-link{
+    color: var(--cor02);
+}
+
+.nav-item .nav-link.active{
+    background-color: var(--cor02);
+    color: var(--cor01);
+}
