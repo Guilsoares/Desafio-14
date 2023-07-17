@@ -30,3 +30,9 @@ header{
     background-color: var(--cor02);
     color: var(--cor01);
 }
+
+/*section - Carousel*/
+
+img{
+    width: 100%;
+}
