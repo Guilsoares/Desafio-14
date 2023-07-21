@@ -26,7 +26,7 @@
         </div>
     </header>
 
-    <main data-bs-spy="scroll" data-bs-target="#cabecalho">
+    <main data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
         <section class="carousel slide" data-bs-ride="carousel" id="carousel">
             <div class="carousel-inner">
                 <div data-bs-interval="10000" class="carousel-item active">
@@ -226,6 +226,57 @@
                                 </div>
                             </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mt-4 pt-5 pb-5" id="contato">
+            <div class="container">
+                <h2 class="subtitles text-center mb-5">Fale Conosco</h2>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <form>
+                            <div class="mb-2">
+                                <label class="form-label" for="nome">Nome</label>
+                                <input class="form-control" type="text" name="nome" id="nome" required>
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label" for="mail">E-mail</label>
+                                <input class="form-control" type="email" name="mail" id="mail" required>
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label" for="tel">Telefone (Opcional)</label>
+                                <input class="form-control" type="tel" name="tel" id="tel">
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label" for="msg">Sua Mensagem</label>
+                                <textarea class="form-control" name="msg" id="msg" required cols="30" rows="10"></textarea>
+                            </div>
+                            <button class="btn btn-primary mt-2" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h5 class="subtitles">
+                                <i class="bi bi-hand-thumbs-up-fill"></i> Redes Sociais
+                            </h5>
+                            <ul class="social-link">
+                                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                <li class="ms-2 me-2"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h5 class="subtitles">
+                                <i class="bi bi-cursor-fill"></i> Redes Sociais
+                            </h5>
+                            <address>
+                                Rua Ficticia, 123 - São Paulo - SP - CEP 12345-678
+                            </address>
                         </div>
                     </div>
                 </div>

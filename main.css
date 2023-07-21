@@ -2,12 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital@0;1&display=swap');
 
+
 :root{
     --cor01:#76430E;
     --cor02: #F5D6B5;
 
     --titleFonts: 'Pacifico', cursive;
     --textFonts: 'Roboto', sans-serif;
+}
+
+*{
+    font-family: var(--textFonts);
 }
 
 /* HEADER*/
@@ -27,6 +32,7 @@ header{
     color: var(--cor01);
     margin: 10px 0;
 }
+
 
 
 .nav-item .nav-link{
@@ -49,6 +55,33 @@ img{
     border-top: solid 3px #786959;
     border-bottom: solid 3px #786959;
 }
+
+.nav-cardapio .nav-link,
+.tab-pane h4,
+.form-label{
+    color: var(--cor01);
+    font-weight: bold;
+}
+
+.nav-cardapio .nav-link.active,
+.tab-pane button,
+button.btn{
+    background-color: var(--cor01);
+    border: none;
+}
+
+.social-link li{
+    display: inline;
+    list-style: none;
+}
+
+.social-link li a{
+    text-decoration: none;
+    color: var(--cor01);
+}
+
+
+
 
 
 
