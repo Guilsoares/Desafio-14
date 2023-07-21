@@ -80,6 +80,15 @@ button.btn{
     color: var(--cor01);
 }
 
+footer{
+    background-color: var(--cor01);
+    color: var(--cor02);
+    text-align: center;  
+    padding: 10px;
+
+}
+
+
 @media (max-width: 767px) {
     .carousel-item img{
         height: 280px;
